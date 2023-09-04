@@ -1,3 +1,6 @@
+const jsdom = require('jsdom');
+const { JSDOM } = jsdom;
+
 const companies = [
   { name: "Company One", category: "Finance", start: 1981, end: 2004 },
   { name: "Company Two", category: "Retail", start: 1992, end: 2008 },
@@ -32,6 +35,10 @@ companies.forEach((company) => {
 const retailCompanies = companies.filter((company) => company.category === "Retail");
 retailCompanies.forEach((company) => {
   company.start++;
+  
+  const { window } = new JSDOM();
+  const document = window.document;
+
   const div = document.createElement("div");
   div.innerHTML = `
     <p>Name: ${company.name}</p>

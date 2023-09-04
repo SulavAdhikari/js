@@ -20,41 +20,53 @@ const person = { name: "Costas", address: { street: "Lalaland 12" } };
 
 <h4>Exercise 1:</h4>
 print the name of each company using forEach
-
+<img sre="ex1.png">
+<hr>
 <h4>Exercise 2:</h4>
 print the name of each company that started after 1987
-
+<img sre="ex2.png">
+<hr>
 <h4>Exercise 3:</h4>
 get only the companies that have category Retail, increment their start by 1 and append in the DOM a div that has the name, the category, the start and the end in paragraphs elements
 
+<hr>
 <h4>Exercise 4:</h4>
 sort the companies based on their end date in ascending order
-
+<img sre="ex4.png">
+<hr>
 <h4>Exercise 5:</h4>
 sort the ages array in descending order
-
+<img sre="ex5.png">
+<hr>
 <h4>Exercise 6:</h4>
 print the sum if you add all the ages using reduce
-
+<img sre="ex6.png">
+<hr>
 <h4>Exercise 7:</h4>
 make an new object that has the properties of name and category same as the companies[0] and a method print that prints out the name, use object destructuring and ES6 JS
-
+<img sre="ex7.png">
+<hr>
 <h4>Exercise 8:</h4>
 create a function that takes an unknown number of arguments that are numbers and return their sum;
-
+<img sre="ex8.png">
+<hr>
 <h4>Exercise 9:</h4>
 make a function that takes an unknown number of arguments of any type and adds them in an array and returns the array, if the argument is an array it should add it's values to the array that will be returned by the function
-
+<img sre="ex9.png">
+<hr>
 <h4>Exercise 10:</h4>
 distructure the property street in a variable named street from the object person
-
+<img sre="ex10.png">
+<hr>
 <h4>Exercise 11:</h4>
 write a function that every time you call it, it returns a number that increments starting from 0
-
+<img sre="ex11.png">
+<hr>
 <h4>Exercise 12:</h4>
 create a function that distructures the query parameters of a url and adds them in an object as key value pairs and then returns the object
-
+<img sre="ex12.png">
 <hr>
+
 
 <h3></h3>
 Q1: Write a JavaScript program to check if the provided argument is a valid JSON.

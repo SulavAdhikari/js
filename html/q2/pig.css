@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+}
+
+.main{
+    margin-top: 13%;
+    margin-left: 40%;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(90, 84, 84, 0);
+}
+
+#head{
+    position: relative;
+    z-index: 1000;
+    border-radius: 50%;
+    border-width: thick;
+    border-style: solid;
+    border-color: black;
+    width: 200px;
+    height: 200px;
+    background-color: #ffc0cb;
+}
+
+.eyeline{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.eye{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border-width: 2;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pupil{
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#leye{
+    margin-left: 30px;
+}
+#reye{
+    margin-right: 30px;
+    margin-left: auto;
+}
+
+.earline{
+    width: 200px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    z-index: -1;
+}
+
+.ear{
+    height: 50px;
+    width: 50px;
+    border-width: thick;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    background-color: #ffc0cb;
+}
+
+#lear{
+    margin-left:0px;
+    margin-right: auto;
+}
+
+#lrear{
+    margin-right:0px;
+    margin-left: auto;
+}
+
+.noseline{
+    position:absolute;
+    width: 100%;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.nose{
+
+    width: 100px;
+    height: 60px;
+    border-width: 2.5;
+    border-style: solid;
+    border-color: black;
+    border-radius: 35%;
+    background-color: #f57187;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nostril {
+    border-radius: 50%;
+    background-color: black;
+    width: 25%;
+    height: 50%;
+    
+    }

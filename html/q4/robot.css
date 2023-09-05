@@ -59,6 +59,7 @@ body{
     background-color: #dedede;
     border-radius: 20px;
     top: 98px;
+    margin-right: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -1,0 +1,60 @@
+/* Reset some default styles */
+
+body{
+    background-color: rgb(31, 56, 85);
+}
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    color: #f5ff63;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the hero section */
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    min-height: 200px;
+    padding: 100px 0;
+}
+
+/* Style the menu section */
+.menu {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.menu h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.coffee-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.coffee-item {
+    background-color: rgb(27, 38, 70);
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+
+    box-shadow: 10px 10px 10px rgba(10, 6, 26, 0.356);
+}
+
+.coffee-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff6600;
+}

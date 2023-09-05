@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stepper Form</title>
+    <link rel="stylesheet" href="form.css">
+    
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="stages-bar">
+            <div class="progressbar">
+                <div class="progress" id="progress"></div>
+                <div
+                  class="progress-step progress-step-active"
+                  data-title="Product Selection"
+                ></div>
+                <div class="progress-step" data-title="Payment Method"></div>
+                <div class="progress-step" data-title="Payment Form"></div>
+                <div class="progress-step" data-title="Purchase Success"></div>
+              </div>
+        </div>
+
+        <div class="stg1 stg" id="stage1">
+
+            <div class="product-selection-from">
+                <ul> 
+                    <li class="prod1">      
+                        <input type="checkbox" name="prod1" value="AlgoExpert">
+                        <label for="prod1" > AlgoExpert</label>
+                    </li>
+                    <li class="prod2">
+                        <input type="checkbox" name="prod2" value="SystemsExpert">
+                        <label for="prod2" > SystemsExpert</label>
+                    </li>
+                    <li class="prod3">
+                        <input type="checkbox" name="prod3" value="MLExpert" checked>
+                        <label for="prod3" > MLExpert </label>
+                    </li>
+                    <li class="prod4">
+                        <input type="checkbox" name="prod4" value="FrontendExpert">
+                        <label for="prod1" > FrontendExpert </label>
+                    </li>
+                </ul>
+                <div class="button-line">    
+                    <button class = 'next button' id="nxtbtn1"> Continue</button>
+                </div>
+            </div>
+
+        </div>
+ <!-- ---------- separation ------------ -->
+        <div class="stg2 stg" id="stage2">
+            <div class="product-selection-from">
+                <ul> 
+                    <li class="prod1">      
+                        <input type="checkbox" name="prod1" value="Paypal">
+                        <label for="prod1" > PayPal</label>
+                    </li>
+                    <li class="prod2">
+                        <input type="checkbox" name="prod2" value="Visa">
+                        <label for="prod2" > Visa</label>
+                    </li>
+                    <li class="prod3">
+                        <input type="checkbox" name="prod3" value="Binance" checked>
+                        <label for="prod3" > Binance </label>
+                    </li>
+                    <li class="prod4">
+                        <input type="checkbox" name="prod4" value="Esewa">
+                        <label for="prod1" > Esewa </label>
+                    </li>
+                </ul>
+                <div class="button-line">
+                    <button class = 'prev button' id="prvbtn1"> previous</button>  
+                    <button class = 'next button' id="nxtbtn2"> Continue</button>
+                </div>
+            </div>
+        </div>
+<!---------------- separation --------- -->
+        <div class="stg3 stg" id="stage3" >
+            <div class="product-selection-from">
+                <ul> 
+                    <li class="prod1">      
+                        <label for="prod1" >Owner: </label>
+                  
+                        <input type="text" name="prod1" value="AlgoExpert">
+                    </li>
+                    <li class="prod2">
+                        <label for="prod2" >Card number:</label>
+                        <input type="text" name="prod2" >
+                    </li>
+                    <li class="prod3">
+                        <label for="prod3" > CVV: </label>
+                       
+                        <input type="text" name="prod3">
+                    </li>
+                    <li class="prod4">
+                        <label for="prod1" > expiration date: </label>
+                        
+                        <input type="date" name="prod4">
+                    </li>
+                </ul>
+                <div class="button-line">  
+                    <button class = 'prev button' id="prvbtn2"> previous</button>  
+                    <button class = 'next button' id="nxtbtn3"> Continue</button>
+                </div>
+            </div>
+        </div>
+<!--------------- separation -------- -->
+        <div class="stg4 stg" id="stage4" >
+            <div class="product-selection-from">
+                <ul> 
+                    <li class="prod4">      
+                 
+                        <label for="prod4" >Payment sucessful</label>
+                    </li>
+                    
+                </ul>
+                <div class="button-line">    
+                    <button class = 'prev button' id="prvbtn3"> previous</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="from.js"></script>
+</body>
+
+</html>
